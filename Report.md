@@ -4,6 +4,7 @@ The Deep Deterministic Policy Gradients (DDPG) algorithm below successfully solv
 
 ## Algorithm walkthrough
 <img width="837" alt="Bildschirmfoto 2022-05-04 um 12 08 17" src="https://user-images.githubusercontent.com/23191357/166662274-d28e2a22-f419-4606-a660-c3a0f94a57ac.png">
+(description courtesy of https://arxiv.org/pdf/1509.02971.pdf, see page 5)
 
 Based on this implementation, adaptations were needed in the model and Noise process to adapt from one to multiple agents. Moreover, the learning rate of the critic was reduced to 1e-3 to 1e-4 which lead to faster and more stable learning.
 
