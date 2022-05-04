@@ -37,7 +37,7 @@ The DDPG agent contains the following components and configs:
 <img width="430" alt="Bildschirmfoto 2022-05-04 um 12 15 10" src="https://user-images.githubusercontent.com/23191357/166663142-9551aed8-cfc5-4a61-aacd-534f75e612c6.png">
 
 
-The plot shows that the agent was able to receive an average reward over 100 episodes, which is stable between 30 and 40 between episodes 100 to 300. The agent was able to surpass the minimium requirement of +30 after 100 episodes.
+The plot shows that the agent was able to receive an average reward over 100 episodes, which is stable between 30 and 40 between episodes 100 to 300. The agent was able to surpass the minimium requirement of +30 over 100 episodes after 150 episodes.
 
 ## Ideas for Future Work
 
