@@ -25,13 +25,13 @@ Neural network architectures
   - Relu
   - Output layer (size 1)
 
-Hyperparameters:
-- BUFFER_SIZE = int(1e5)  # replay buffer size
-- BATCH_SIZE = 128        # minibatch size
-- GAMMA = 0.99            # discount factor
-- TAU = 1e-3              # for soft update of target parameters
-- LR_ACTOR = 1e-4         # learning rate of the actor 
-- LR_CRITIC = 1e-4        # learning rate of the critic
+The DDPG agent contains the following components and configs:
+- A replay buffer to store memories with the size of 1e5
+- Minibatch sizes of 128
+- A discount factor of 0.99 for value function approximation
+- A soft update to blend the regular into the target network of 1e-3
+- Learning rates of the actor and critic each set to 1e-4
+- Noise according to the Ornstein-Uhlenbeck process with theta=0.15, sigma=0.2
 
 ## Plot of Rewards
 <img width="430" alt="Bildschirmfoto 2022-05-04 um 12 15 10" src="https://user-images.githubusercontent.com/23191357/166663142-9551aed8-cfc5-4a61-aacd-534f75e612c6.png">
