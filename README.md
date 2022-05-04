@@ -23,13 +23,7 @@ The approach of my implementation considers the following elements in the model:
   - The output layer of the actor is activated with a tanh to provide action values between -1 and 1
   - The output layer of the critic is activated with a relu to provide a positive action value
 
-The DDPG agent contains the following components and configs:
-- A replay buffer to store memories with the size of 1e5
-- Minibatch sizes of 128
-- A discount factor of 0.99 for value function approximation
-- A soft update to blend the regular into the target network of 1e-3
-- Learning rates of the actor and critic each set to 1e-4
-- Noise according to the Ornstein-Uhlenbeck process with theta=0.15, sigma=0.2
+The DDPG agent is described in more detail in Report.md.
 
 ## 	Instructions for installing dependencies or downloading needed files.
 - Make sure to use Python v3.6 (I set up a separate environment in my Anaconda to run this)
