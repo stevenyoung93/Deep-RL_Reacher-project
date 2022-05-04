@@ -31,7 +31,12 @@ The DDPG agent is described in more detail in Report.md.
   - numpy
   - torch (include torchvision)
 - Clone and extract this git repository
-- Download the appropriate environment from unity according to your operating system (https://unity.com/de/products/machine-learning-agents)
+- Set up the environment:
+  - Download the environment (I provided 20 agents) from one of the links below and place the file in the DRLND project repository. You need only select the environment that matches your operating system:
+    - Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip
+    - Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip
+    - Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip
+    - Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip
 
 ## 	How to run the code in the repository, to train the agent
 - Follow instructions above to install dependencies and do required download
